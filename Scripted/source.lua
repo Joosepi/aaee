@@ -4,12 +4,12 @@
  / _` | |/ _ \| '__/ _` |
 | (_| | | (_) | | | (_| |
  \__,_|_|\___/|_|  \__,_|  
-alora, a free and open source Counter Blox script created by sjors
+alora, a free and open source Counter Blox script created by neiol
 alora discord: https://discord.gg/m3aMvdynrf
 cuteware discord: https://discord.gg/nyZaeASbsk
 --]]
 repeat wait() until game:IsLoaded()
-if game:GetService("CoreGui"):FindFirstChild("sjorlib") then return end
+if game:GetService("CoreGui"):FindFirstChild("Joosepi") then return end
 getgenv().error = function() end
 local ver = "1.0.0"
 --files
@@ -20,7 +20,7 @@ if not isfolder("alora/"..tostring(game.GameId)) then
     makefolder("alora/"..tostring(game.GameId))
 end
 --vars
-local library,menu,tabholder = loadstring(game:HttpGet("https://raw.githubusercontent.com/sj0rs1/alora/main/library.lua"))()
+local library,menu,tabholder = loadstring(game:HttpGet("https://raw.githubusercontent.com/Joosepi/aaee/master/Scripted/library.lua"))()
 local userInputService = game:GetService("UserInputService")
 local replicatedStorage = game:GetService("ReplicatedStorage")
 local runService = game:GetService("RunService")
